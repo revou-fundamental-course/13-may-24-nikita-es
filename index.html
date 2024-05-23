@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name= "viewport" content="width=device-width, initial scale=1.0">
+    <title>Nikita Evelyna Subiyanto, Tugas Kalkulator RevoU</title>
+    <link rel="stylesheet" href="style.css">
+    <img src="https://etc.usf.edu/clipart/36700/36738/tri17_36738_lg.gif" width="512" height="341">
+</head>
+<body>
+    <script src="script.js"></script>
+
+    <header>
+        <section>
+            <div class="jumbotron">
+                <h1>Kalkulator Segitiga</h1>
+            </div>
+        </section>
+
+        <section>
+                <nav>
+                <div class="btn">
+                    <a href="#luas-segitiga">Luas Segitiga</a>
+                </div>
+                <div class="btn-2">
+                    <a href="#keliling-segitiga">Keliling Segitiga</a>
+                </div>
+                </nav>
+        </section>
+    </header>
+
+<main>
+    <section id="luas-segitiga" class="card">
+        <div class="content-luas">
+            <h2>Luas segitiga </h2> 
+        </div>
+        
+        <div class="keterangan-luas">
+            <p>Rumus luas segitiga :</p>
+            <p class="rumus">
+                L=1/2 x b x h
+            </p>
+            <p> b (alas), h (tinggi)</p>
+        </div>
+        <hr>
+
+    <div class="perhitungan-luas">
+        <header>
+            <h2>hitung luas segitiga</h2>
+        </header>
+        <form>
+            <input type="number" id="alas" name="alas" placeholder="Nilai Alas">
+        <br>
+            <input type="number" id="tinggi" name="tinggi" placeholder="Nilai Tinggi">
+            <br>
+        </form>
+    </div>
+    <div id="luas"></div>
+    <div id="hasilperhitungan"></div>
+    
+    <div class="button">
+        <div class="hitung">
+            <button id="hitung" onclick="hitungluas()">Hitung</button>
+        </div>
+        <div class="reset">
+            <button id="resetbtn" onclick="resetluas()">Reset</button>
+        </div>
+    </div>
+    </section>
+    
+    <section id="keliling-segitiga" class="card")>
+        <div class="content-keliling">
+            <h2>Keliling Segitiga</h2>
+        </div>
+        <div class="keterangan-keliling">
+            <p>Rumus keliling segitiga :</p>
+            <p class="rumus">
+                K= a + b + c
+            </p>
+            <p> a, b, dan c adalah sisi segitiga</p>
+        </div>
+        <hr>
+
+    <div class="perhitungan-keliling">
+        <header>
+            <h2>hitung luas segitiga</h2>
+        </header>
+        <form>
+            <input type="number" id="alas" name="alas" placeholder="Nilai Alas">
+        <br>
+            <input type="number" id="tinggi" name="tinggi" placeholder="Nilai Tinggi">
+            <br>
+        </form>
+    </div>
+    <div id="luas"></div>
+    <div id="hasilperhitungan"></div>
+    
+    <div class="button">
+        <div class="hitung">
+            <button id="hitung" onclick="hitungluas()">Hitung</button>
+        </div>
+        <div class="reset">
+            <button id="resetbtn" onclick="resetluas()">Reset</button>
+        </div>
+    </div>
+   
+    </section>
+
+</main>
+
+</body>
+
+</html>
